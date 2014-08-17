@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05B1ACF919A02D16007F1525 /* CountryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B1ACF819A02D16007F1525 /* CountryCell.m */; };
+		05B3E5351997247F0008925B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05B3E5341997247F0008925B /* Foundation.framework */; };
+		05B3E5371997247F0008925B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05B3E5361997247F0008925B /* CoreGraphics.framework */; };
+		05B3E5391997247F0008925B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05B3E5381997247F0008925B /* UIKit.framework */; };
+		05B3E53B1997247F0008925B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05B3E53A1997247F0008925B /* CoreData.framework */; };
+		05B3E5411997247F0008925B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05B3E53F1997247F0008925B /* InfoPlist.strings */; };
+		05B3E5431997247F0008925B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B3E5421997247F0008925B /* main.m */; };
+		05B3E5471997247F0008925B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B3E5461997247F0008925B /* AppDelegate.m */; };
+		05B3E54A1997247F0008925B /* CreatingUITableViews.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05B3E5481997247F0008925B /* CreatingUITableViews.xcdatamodeld */; };
+		05B3E54C1997247F0008925B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05B3E54B1997247F0008925B /* Images.xcassets */; };
+		05B3E5531997247F0008925B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05B3E5521997247F0008925B /* XCTest.framework */; };
+		05B3E5541997247F0008925B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05B3E5341997247F0008925B /* Foundation.framework */; };
+		05B3E5551997247F0008925B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05B3E5381997247F0008925B /* UIKit.framework */; };
+		05B3E5561997247F0008925B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05B3E53A1997247F0008925B /* CoreData.framework */; };
+		05B3E55E1997247F0008925B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05B3E55C1997247F0008925B /* InfoPlist.strings */; };
+		05B3E5601997247F0008925B /* CreatingUITableViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B3E55F1997247F0008925B /* CreatingUITableViewsTests.m */; };
+		05B3E56C199724E00008925B /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B3E56A199724E00008925B /* MainTableViewController.m */; };
+		05B3E56D199724E00008925B /* MainTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05B3E56B199724E00008925B /* MainTableViewController.xib */; };
+		05B3E570199728FF0008925B /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B3E56F199728FF0008925B /* Country.m */; };
+		05B3E57619972C9D0008925B /* england.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B3E57119972C9D0008925B /* england.png */; };
+		05B3E57719972C9D0008925B /* france.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B3E57219972C9D0008925B /* france.png */; };
+		05B3E57819972C9D0008925B /* scotland.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B3E57319972C9D0008925B /* scotland.png */; };
+		05B3E57919972C9D0008925B /* Spain.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B3E57419972C9D0008925B /* Spain.png */; };
+		05B3E57A19972C9D0008925B /* USA.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B3E57519972C9D0008925B /* USA.png */; };
+		05B3E57E1998A35E0008925B /* CountryDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B3E57C1998A35E0008925B /* CountryDetailsViewController.m */; };
+		05B3E57F1998A35E0008925B /* CountryDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05B3E57D1998A35E0008925B /* CountryDetailsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05B3E5571997247F0008925B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05B3E5291997247F0008925B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05B3E5301997247F0008925B;
+			remoteInfo = CreatingUITableViews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05B1ACF719A02D16007F1525 /* CountryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryCell.h; sourceTree = "<group>"; };
+		05B1ACF819A02D16007F1525 /* CountryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryCell.m; sourceTree = "<group>"; };
+		05B3E5311997247F0008925B /* CreatingUITableViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreatingUITableViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05B3E5341997247F0008925B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05B3E5361997247F0008925B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		05B3E5381997247F0008925B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		05B3E53A1997247F0008925B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		05B3E53E1997247F0008925B /* CreatingUITableViews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CreatingUITableViews-Info.plist"; sourceTree = "<group>"; };
+		05B3E5401997247F0008925B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05B3E5421997247F0008925B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05B3E5441997247F0008925B /* CreatingUITableViews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CreatingUITableViews-Prefix.pch"; sourceTree = "<group>"; };
+		05B3E5451997247F0008925B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05B3E5461997247F0008925B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05B3E5491997247F0008925B /* CreatingUITableViews.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CreatingUITableViews.xcdatamodel; sourceTree = "<group>"; };
+		05B3E54B1997247F0008925B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		05B3E5511997247F0008925B /* CreatingUITableViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreatingUITableViewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05B3E5521997247F0008925B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		05B3E55B1997247F0008925B /* CreatingUITableViewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CreatingUITableViewsTests-Info.plist"; sourceTree = "<group>"; };
+		05B3E55D1997247F0008925B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05B3E55F1997247F0008925B /* CreatingUITableViewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreatingUITableViewsTests.m; sourceTree = "<group>"; };
+		05B3E569199724E00008925B /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainTableViewController.h; path = ../MainTableViewController.h; sourceTree = "<group>"; };
+		05B3E56A199724E00008925B /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainTableViewController.m; path = ../MainTableViewController.m; sourceTree = "<group>"; };
+		05B3E56B199724E00008925B /* MainTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainTableViewController.xib; path = ../MainTableViewController.xib; sourceTree = "<group>"; };
+		05B3E56E199728FF0008925B /* Country.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Country.h; sourceTree = "<group>"; };
+		05B3E56F199728FF0008925B /* Country.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Country.m; sourceTree = "<group>"; };
+		05B3E57119972C9D0008925B /* england.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = england.png; sourceTree = "<group>"; };
+		05B3E57219972C9D0008925B /* france.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = france.png; sourceTree = "<group>"; };
+		05B3E57319972C9D0008925B /* scotland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scotland.png; sourceTree = "<group>"; };
+		05B3E57419972C9D0008925B /* Spain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spain.png; sourceTree = "<group>"; };
+		05B3E57519972C9D0008925B /* USA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = USA.png; sourceTree = "<group>"; };
+		05B3E57B1998A35E0008925B /* CountryDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryDetailsViewController.h; sourceTree = "<group>"; };
+		05B3E57C1998A35E0008925B /* CountryDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryDetailsViewController.m; sourceTree = "<group>"; };
+		05B3E57D1998A35E0008925B /* CountryDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CountryDetailsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05B3E52E1997247F0008925B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05B3E5371997247F0008925B /* CoreGraphics.framework in Frameworks */,
+				05B3E53B1997247F0008925B /* CoreData.framework in Frameworks */,
+				05B3E5391997247F0008925B /* UIKit.framework in Frameworks */,
+				05B3E5351997247F0008925B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05B3E54E1997247F0008925B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05B3E5531997247F0008925B /* XCTest.framework in Frameworks */,
+				05B3E5561997247F0008925B /* CoreData.framework in Frameworks */,
+				05B3E5551997247F0008925B /* UIKit.framework in Frameworks */,
+				05B3E5541997247F0008925B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05B3E5281997247F0008925B = {
+			isa = PBXGroup;
+			children = (
+				05B3E53C1997247F0008925B /* CreatingUITableViews */,
+				05B3E5591997247F0008925B /* CreatingUITableViewsTests */,
+				05B3E5331997247F0008925B /* Frameworks */,
+				05B3E5321997247F0008925B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05B3E5321997247F0008925B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05B3E5311997247F0008925B /* CreatingUITableViews.app */,
+				05B3E5511997247F0008925B /* CreatingUITableViewsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05B3E5331997247F0008925B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05B3E5341997247F0008925B /* Foundation.framework */,
+				05B3E5361997247F0008925B /* CoreGraphics.framework */,
+				05B3E5381997247F0008925B /* UIKit.framework */,
+				05B3E53A1997247F0008925B /* CoreData.framework */,
+				05B3E5521997247F0008925B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05B3E53C1997247F0008925B /* CreatingUITableViews */ = {
+			isa = PBXGroup;
+			children = (
+				05B3E5451997247F0008925B /* AppDelegate.h */,
+				05B3E5461997247F0008925B /* AppDelegate.m */,
+				05B3E56E199728FF0008925B /* Country.h */,
+				05B3E56F199728FF0008925B /* Country.m */,
+				05B1ACF719A02D16007F1525 /* CountryCell.h */,
+				05B1ACF819A02D16007F1525 /* CountryCell.m */,
+				05B3E56A199724E00008925B /* MainTableViewController.m */,
+				05B3E569199724E00008925B /* MainTableViewController.h */,
+				05B3E56B199724E00008925B /* MainTableViewController.xib */,
+				05B3E57B1998A35E0008925B /* CountryDetailsViewController.h */,
+				05B3E57C1998A35E0008925B /* CountryDetailsViewController.m */,
+				05B3E57D1998A35E0008925B /* CountryDetailsViewController.xib */,
+				05B3E5481997247F0008925B /* CreatingUITableViews.xcdatamodeld */,
+				05B3E54B1997247F0008925B /* Images.xcassets */,
+				05B3E53D1997247F0008925B /* Supporting Files */,
+			);
+			path = CreatingUITableViews;
+			sourceTree = "<group>";
+		};
+		05B3E53D1997247F0008925B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05B3E57119972C9D0008925B /* england.png */,
+				05B3E57219972C9D0008925B /* france.png */,
+				05B3E57319972C9D0008925B /* scotland.png */,
+				05B3E57419972C9D0008925B /* Spain.png */,
+				05B3E57519972C9D0008925B /* USA.png */,
+				05B3E53E1997247F0008925B /* CreatingUITableViews-Info.plist */,
+				05B3E53F1997247F0008925B /* InfoPlist.strings */,
+				05B3E5421997247F0008925B /* main.m */,
+				05B3E5441997247F0008925B /* CreatingUITableViews-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05B3E5591997247F0008925B /* CreatingUITableViewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				05B3E55F1997247F0008925B /* CreatingUITableViewsTests.m */,
+				05B3E55A1997247F0008925B /* Supporting Files */,
+			);
+			path = CreatingUITableViewsTests;
+			sourceTree = "<group>";
+		};
+		05B3E55A1997247F0008925B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05B3E55B1997247F0008925B /* CreatingUITableViewsTests-Info.plist */,
+				05B3E55C1997247F0008925B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05B3E5301997247F0008925B /* CreatingUITableViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05B3E5631997247F0008925B /* Build configuration list for PBXNativeTarget "CreatingUITableViews" */;
+			buildPhases = (
+				05B3E52D1997247F0008925B /* Sources */,
+				05B3E52E1997247F0008925B /* Frameworks */,
+				05B3E52F1997247F0008925B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreatingUITableViews;
+			productName = CreatingUITableViews;
+			productReference = 05B3E5311997247F0008925B /* CreatingUITableViews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05B3E5501997247F0008925B /* CreatingUITableViewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05B3E5661997247F0008925B /* Build configuration list for PBXNativeTarget "CreatingUITableViewsTests" */;
+			buildPhases = (
+				05B3E54D1997247F0008925B /* Sources */,
+				05B3E54E1997247F0008925B /* Frameworks */,
+				05B3E54F1997247F0008925B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05B3E5581997247F0008925B /* PBXTargetDependency */,
+			);
+			name = CreatingUITableViewsTests;
+			productName = CreatingUITableViewsTests;
+			productReference = 05B3E5511997247F0008925B /* CreatingUITableViewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05B3E5291997247F0008925B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = BigRedINC;
+				TargetAttributes = {
+					05B3E5501997247F0008925B = {
+						TestTargetID = 05B3E5301997247F0008925B;
+					};
+				};
+			};
+			buildConfigurationList = 05B3E52C1997247F0008925B /* Build configuration list for PBXProject "CreatingUITableViews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05B3E5281997247F0008925B;
+			productRefGroup = 05B3E5321997247F0008925B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05B3E5301997247F0008925B /* CreatingUITableViews */,
+				05B3E5501997247F0008925B /* CreatingUITableViewsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05B3E52F1997247F0008925B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05B3E57719972C9D0008925B /* france.png in Resources */,
+				05B3E5411997247F0008925B /* InfoPlist.strings in Resources */,
+				05B3E57919972C9D0008925B /* Spain.png in Resources */,
+				05B3E57A19972C9D0008925B /* USA.png in Resources */,
+				05B3E56D199724E00008925B /* MainTableViewController.xib in Resources */,
+				05B3E54C1997247F0008925B /* Images.xcassets in Resources */,
+				05B3E57619972C9D0008925B /* england.png in Resources */,
+				05B3E57819972C9D0008925B /* scotland.png in Resources */,
+				05B3E57F1998A35E0008925B /* CountryDetailsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05B3E54F1997247F0008925B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05B3E55E1997247F0008925B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05B3E52D1997247F0008925B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05B3E56C199724E00008925B /* MainTableViewController.m in Sources */,
+				05B3E5471997247F0008925B /* AppDelegate.m in Sources */,
+				05B3E57E1998A35E0008925B /* CountryDetailsViewController.m in Sources */,
+				05B3E5431997247F0008925B /* main.m in Sources */,
+				05B3E54A1997247F0008925B /* CreatingUITableViews.xcdatamodeld in Sources */,
+				05B3E570199728FF0008925B /* Country.m in Sources */,
+				05B1ACF919A02D16007F1525 /* CountryCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05B3E54D1997247F0008925B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05B3E5601997247F0008925B /* CreatingUITableViewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05B3E5581997247F0008925B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05B3E5301997247F0008925B /* CreatingUITableViews */;
+			targetProxy = 05B3E5571997247F0008925B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05B3E53F1997247F0008925B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05B3E5401997247F0008925B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		05B3E55C1997247F0008925B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05B3E55D1997247F0008925B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05B3E5611997247F0008925B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		05B3E5621997247F0008925B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05B3E5641997247F0008925B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CreatingUITableViews/CreatingUITableViews-Prefix.pch";
+				INFOPLIST_FILE = "CreatingUITableViews/CreatingUITableViews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05B3E5651997247F0008925B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CreatingUITableViews/CreatingUITableViews-Prefix.pch";
+				INFOPLIST_FILE = "CreatingUITableViews/CreatingUITableViews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		05B3E5671997247F0008925B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CreatingUITableViews.app/CreatingUITableViews";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CreatingUITableViews/CreatingUITableViews-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CreatingUITableViewsTests/CreatingUITableViewsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		05B3E5681997247F0008925B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CreatingUITableViews.app/CreatingUITableViews";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CreatingUITableViews/CreatingUITableViews-Prefix.pch";
+				INFOPLIST_FILE = "CreatingUITableViewsTests/CreatingUITableViewsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05B3E52C1997247F0008925B /* Build configuration list for PBXProject "CreatingUITableViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05B3E5611997247F0008925B /* Debug */,
+				05B3E5621997247F0008925B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05B3E5631997247F0008925B /* Build configuration list for PBXNativeTarget "CreatingUITableViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05B3E5641997247F0008925B /* Debug */,
+				05B3E5651997247F0008925B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05B3E5661997247F0008925B /* Build configuration list for PBXNativeTarget "CreatingUITableViewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05B3E5671997247F0008925B /* Debug */,
+				05B3E5681997247F0008925B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		05B3E5481997247F0008925B /* CreatingUITableViews.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				05B3E5491997247F0008925B /* CreatingUITableViews.xcdatamodel */,
+			);
+			currentVersion = 05B3E5491997247F0008925B /* CreatingUITableViews.xcdatamodel */;
+			path = CreatingUITableViews.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 05B3E5291997247F0008925B /* Project object */;
+}
